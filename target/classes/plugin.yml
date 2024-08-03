@@ -1,0 +1,4 @@
+name: ExpadorSkyblock
+version: '1.0-SNAPSHOT'
+main: org.mythofy.expadorSkyblock.ExpadorSkyblock
+api-version: '1.20'
