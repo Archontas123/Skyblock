@@ -1,0 +1,40 @@
+name: ExpadorSkyblock
+version: '1.0-SNAPSHOT'
+main: org.mythofy.skyblock.ExpadorSkyblock
+api-version: '1.20'
+commands:
+  island:
+    description: Main command for island management.
+    usage: /<command> [create|home|visit|sethome|privacy|coop|kick|ban|delete|admin]
+    aliases: [is]
+permissions:
+  expadorskyblock.island.create:
+    description: Allows players to create an island.
+    default: true
+  expadorskyblock.island.home:
+    description: Allows players to teleport to their island home.
+    default: true
+  expadorskyblock.island.visit:
+    description: Allows players to visit other islands.
+    default: true
+  expadorskyblock.island.sethome:
+    description: Allows players to set their island home location.
+    default: true
+  expadorskyblock.island.privacy:
+    description: Allows players to change the privacy settings of their island.
+    default: true
+  expadorskyblock.island.coop:
+    description: Allows players to manage island co-op.
+    default: true
+  expadorskyblock.island.kick:
+    description: Allows players to kick members from their island.
+    default: true
+  expadorskyblock.island.ban:
+    description: Allows players to ban members from their island.
+    default: true
+  expadorskyblock.island.delete:
+    description: Allows players to delete their island.
+    default: true
+  expadorskyblock.island.admin:
+    description: Allows admins to manage all islands.
+    default: op

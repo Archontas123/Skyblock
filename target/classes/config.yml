@@ -1,0 +1,23 @@
+# General configuration for ExpadorSkyblock
+
+
+
+islands:
+  max_size: 200
+  default_level: 1
+
+# Default settings for new islands
+default_island:
+  level: 1
+  is_public: true
+
+# Messages
+messages:
+  no_permission: "&cYou don't have permission to perform this action."
+  island_created: "&aYour island has been created successfully!"
+  island_already_exists: "&cYou already have an island."
+  island_home_set: "&aIsland home location set to your current position."
+  island_not_found: "&cIsland not found."
+  island_visit: "&aVisiting island of %player%..."
+  island_privacy_set: "&aIsland privacy has been set to %status%."
+  no_island: "&cYou do not have an island."
